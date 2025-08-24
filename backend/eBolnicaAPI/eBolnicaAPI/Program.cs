@@ -1,7 +1,7 @@
 using eBolnicaAPI.Data;
 using eBolnicaAPI.Data.Interfaces; // Add this using statement
-using eBolnicaAPI.Models.Interfaces; // Add this using statement
-using eBolnicaAPI.Models.Services;   // Add this using statement
+using eBolnicaAPI.Models.Interfaces;
+using eBolnicaAPI.Models.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
